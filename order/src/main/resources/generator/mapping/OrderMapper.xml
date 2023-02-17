@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zzk.order.mapper.OrderMapper" >
+  <select id="getOrderDetailList" resultMap="com.zzk.order.mapper.OrderDetailMapper.BaseResultMap">
+    select * from order_details
+      <where>
+        <choose>
+          <when test="orderCodes!=null and  orderCodes.length>0">
+            order_code in
+            <foreach collection="orderCodes" index="index" item="item" open="(" close=")" separator=",">
+              #{item}
+            </foreach>
+          </when>
+          <otherwise>
+            1=0
+          </otherwise>
+        </choose>
+      </where>
+    ;
+  </select>
+</mapper>

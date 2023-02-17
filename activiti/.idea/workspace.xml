@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52f29cca-74af-4178-8826-d281aa21fee2" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:h2:tcp://localhost/~/test2" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:h2:tcp://localhost/~/test2" type="feb32156:DbDataSourceImpl" />
+        <item name="TEST2: database" type="2aa06773:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:h2:tcp://localhost/~/test2" type="feb32156:DbDataSourceImpl" />
+        <item name="TEST2: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/CompensationTimes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="25" column="67" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/CompensationWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/BuyMovieTicket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/UnlockSeatDelegate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/LockSeatDelegate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/PayDelegate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter5/BuildProcessEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter8/NewTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/RegularWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/ThrowError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>autoWelcomeTime</find>
+      <find>automatedIntro</find>
+      <find>”</find>
+      <find>userTask</find>
+      <find>usertask</find>
+      <find>timerstartevent1</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter9/SignaleEventReceived.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter9/MessageEvent.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter9/signalEventReceived.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter9/DeleteProcessInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter9/SuspendProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter9/ExecutionQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter9/ProcessInstanceQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/ProcessInstanceQuery.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/Delete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/ProcessInstanceQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/TaskQuery.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/TaskQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/ActivityQuery.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/ActivityQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/DetailQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/TimerTransition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/MyJavaDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/JobExceptionDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/timer-intermediate-transition.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/TimerIntermediateTansition.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/timer-transition.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/timer-start-event.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/TimerStartEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/event.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/JobException.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/jobException.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/async-continuation.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/AsyncConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/HandleErrorDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/CheckServerDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/ErrorEndEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter11/CancelEndEvent.bpmn.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/RemitDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/RollbackRemitDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/CancelEndEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter11/CancelEndEvent.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/ReceiveCancelDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/GenOrderDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/SignalThrowingEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter11/SignalThrowingEvent.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter11/CompensationTimes.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compansation/CompensationTimes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/ThrowError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/CompensationWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/RegularWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/CompensationTimes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/BuyMovieTicket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/UnlockSeatDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/LockSeatDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/PayDelegate.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="activiti" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="activiti" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="activiti" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti_in_action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti_in_action" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti_in_action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti_in_action" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571121781034" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="activiti_in_action" />
+      <recent name="activiti_in_action.chapter1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Code\Study\activiti\src\main\resources\activiti_in_action\chapter13" />
+      <recent name="F:\Code\Study\activiti\src\main\java\activiti_in_action\chapter13" />
+      <recent name="F:\Code\Study\activiti\src\main\resources\activiti_in_action\chapter11" />
+      <recent name="F:\Code\Study\activiti\src\main\java\activiti_in_action\chapter11\compansation" />
+      <recent name="F:\Code\Study\activiti\src\main\java\activiti_in_action\chapter11" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="activiti_in_action.chapter7" />
+      <recent name="activiti_in_action.chapter6" />
+      <recent name="activiti_in_action.chapter4" />
+      <recent name="activiti_in_action.chapter1.chapter2" />
+      <recent name="demo3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Code\Study\activiti\src\main\resources\activiti_in_action\chapter11" />
+      <recent name="F:\Code\Study\activiti\src\main\resources\activiti_in_action\chapter5" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BuyMovieTicket">
+    <configuration name="BuyMovieTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activiti_in_action.chapter13.BuyMovieTicket" />
+      <module name="activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="activiti_in_action.chapter13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CancelEndEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activiti_in_action.chapter11.CancelEndEvent" />
+      <module name="activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="activiti_in_action.chapter11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompensationTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activiti_in_action.chapter11.compensation.CompensationTimes" />
+      <module name="activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="activiti_in_action.chapter11.compensation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ErrorEndEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activiti_in_action.chapter11.ErrorEndEvent" />
+      <module name="activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="activiti_in_action.chapter11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignalThrowingEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activiti_in_action.chapter11.SignalThrowingEvent" />
+      <module name="activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="activiti_in_action.chapter11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BuyMovieTicket" />
+        <item itemvalue="Application.CompensationTimes" />
+        <item itemvalue="Application.SignalThrowingEvent" />
+        <item itemvalue="Application.CancelEndEvent" />
+        <item itemvalue="Application.ErrorEndEvent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52f29cca-74af-4178-8826-d281aa21fee2" name="Default Changelist" comment="" />
+      <created>1554166692201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554166692201</updated>
+      <workItem from="1554166695382" duration="70212000" />
+      <workItem from="1554864655374" duration="13267000" />
+      <workItem from="1571107508849" duration="954000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BookOrderTest_startBookOrder - 2019.04.02 at 17h 13m 13s.xml">
+      <configuration name="BookOrderTest.startBookOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookOrderTest_startBookOrder - 2019.04.02 at 17h 20m 51s.xml">
+      <configuration name="BookOrderTest.startBookOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookOrderTest_startBookOrder - 2019.04.02 at 17h 21m 43s.xml">
+      <configuration name="BookOrderTest.startBookOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookOrderTest_startBookOrder - 2019.04.02 at 17h 34m 13s.xml">
+      <configuration name="BookOrderTest.startBookOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookOrderTest_startBookOrder - 2019.04.02 at 17h 36m 30s.xml">
+      <configuration name="BookOrderTest.startBookOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookOrderTest_startBookOrder - 2019.04.02 at 17h 37m 59s.xml">
+      <configuration name="BookOrderTest.startBookOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookOrderTest_startBookOrder - 2019.04.02 at 17h 59m 03s.xml">
+      <configuration name="BookOrderTest.startBookOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookOrderTest_startBookOrder - 2019.04.02 at 18h 00m 27s.xml">
+      <configuration name="BookOrderTest.startBookOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookOrderTest_startBookOrder - 2019.04.02 at 18h 00m 37s.xml">
+      <configuration name="BookOrderTest.startBookOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookOrderTest_startBookOrder - 2019.04.03 at 14h 52m 17s.xml">
+      <configuration name="BookOrderTest.startBookOrder" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="84433000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="BPMN Editor" order="0" weight="0.27145922" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28379828" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2753623" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2890625" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" weight="0.32998884" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" weight="0.32924107" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32924107" />
+      <window_info anchor="right" id="BPMNPalette" order="0" weight="0.19527897" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.17811158" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3299356" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="BPMN Editor" order="0" weight="0.27145922" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28004292" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.359375" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6482982" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" weight="0.32998884" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" weight="0.32924107" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32924107" />
+      <window_info anchor="right" id="BPMNPalette" order="0" weight="0.19527897" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.17811158" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3299356" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/OnboardingRequest.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter9/SuspendProcess.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter9/ExecutionQuery.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter9/ProcessInstanceQuery.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/ProcessInstanceQuery.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/TaskQuery.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/ActivityQuery.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/Event.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/AsyncConfig.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/CancelEndEvent.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/SignalThrowingEvent.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((TaskEntity)task).tenantId" custom="org.activiti.engine.impl.persistence.entity.TaskEntity" />
+        <watch expression="((HistoricActivityInstanceEntity)activities.get(0)).activityId" custom="org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntity" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/TaskQuery.bpmn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/ProcessInstanceQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter9/ProcessInstanceQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#1751#1759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter9/ProcessInstanceQuery.bpmn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter9/SuspendProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="33" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/TaskQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="40" column="67" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/DetailQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/TimerTransition.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/timer-intermediate-transition.bpmn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/event.bpmn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/TimerStartEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/timer-start-event.bpmn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/delegate/invocation/JavaDelegateInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/timer-transition.bpmn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/jobException.bpmn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/MyJavaDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/TimerIntermediateTansition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/JobException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/async-continuation.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/JobExceptionDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter10/ActivityQuery.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/job/AsyncConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/CheckServerDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/activiti">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>activiti</OriginalElement>
+          <nodes>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @195004</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @194921</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @194730</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @195151</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TServiceTask @194775</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @194944</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @194990</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @194936</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @195016</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @195043</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TIntermediateCatchEvent @195143</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @194951</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TScriptTask @194968</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @195148</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @195046</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @194978</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @195021</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @194726</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @194926</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @194749</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @194757</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @195140</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @195038</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @195011</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @195040</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @194931</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @194768</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @194960</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9217032967032966" x="728.0" y="211.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/ErrorEndEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter10/ActivityQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="37" column="67" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/RollbackRemitDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/RemitDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter11/ErrorEndEvent.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter11/ErrorStartEvent.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter11/CancelEndEvent.bpmn20.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="993">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+      <provider editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/ReceiveCancelDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/GenOrderDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/HandleErrorDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/ErrorStartEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter11/SignalThrowingEvent.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/SignalThrowingEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="76" lean-forward="true" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter11/CompensationTimes.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_in_action/chapter13/BuyMovieTicket.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/CancelEndEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/CompensationTimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="25" column="67" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/CompensationWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/BuyMovieTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/UnlockSeatDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/LockSeatDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/RegularWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter11/compensation/ThrowError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter13/PayDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter5/BuildProcessEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_in_action/chapter8/NewTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>activiti</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

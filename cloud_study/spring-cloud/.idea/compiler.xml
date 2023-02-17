@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client" />
+        <module name="config" />
+        <module name="eureka_server" />
+        <module name="feign_zuul_client" />
+        <module name="feignclient" />
+        <module name="feignhystrix" />
+        <module name="ribbonclient" />
+        <module name="ribbonhystrix" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="one" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="eureka_server" options="-parameters" />
+      <module name="feign_zuul_client" options="-parameters" />
+      <module name="feignclient" options="-parameters" />
+      <module name="feignhystrix" options="-parameters" />
+      <module name="one" options="-parameters" />
+      <module name="ribbonclient" options="-parameters" />
+      <module name="ribbonhystrix" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

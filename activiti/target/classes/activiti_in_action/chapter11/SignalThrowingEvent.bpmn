@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:tns="http://www.activiti.org/test" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" expressionLanguage="http://www.w3.org/1999/XPath" id="m1554958589111" name="" targetNamespace="http://www.activiti.org/test" typeLanguage="http://www.w3.org/2001/XMLSchema">
+  <signal id="finishPay" name="finishPay"/>
+  <process id="stProcess" isClosed="false" name="stProcess" processType="None">
+    <startEvent id="startevent1" name="Start"/>
+    <userTask activiti:exclusive="true" id="usertask1" name="Select Porduct"/>
+    <parallelGateway gatewayDirection="Unspecified" id="parallelgateway1" name="Parallel Gateway"/>
+    <userTask activiti:exclusive="true" id="usertask2" name="User Pay"/>
+    <serviceTask activiti:class="activiti_in_action.chapter11.GenOrderDelegate" activiti:exclusive="true" id="servicetask1" name="Generate Order"></serviceTask>
+    <intermediateCatchEvent id="signalintermediatecatchevent1" name="SignalCatchEvent">
+      <signalEventDefinition id="signalintermediatecatchevent1_ED_1" signalRef="finishPay"/>
+    </intermediateCatchEvent>
+    <parallelGateway gatewayDirection="Unspecified" id="parallelgateway2" name="Parallel Gateway"/>
+    <endEvent id="endevent1" name="End"/>
+    <userTask activiti:exclusive="true" id="usertask3" name="Complete Order"/>
+    <intermediateThrowEvent id="signalintermediatethrowevent1" name="SignalThrowEvent">
+      <signalEventDefinition activiti:async="true" id="signalintermediatethrowevent1_ED_1" signalRef="finishPay"/>
+    </intermediateThrowEvent>
+    <intermediateCatchEvent id="signalintermediatecatchevent2" name="SignalCatchEvent">
+      <signalEventDefinition id="signalintermediatecatchevent2_ED_1" signalRef="finishPay"/>
+    </intermediateCatchEvent>
+    <sequenceFlow id="flow1" sourceRef="startevent1" targetRef="usertask1"/>
+    <sequenceFlow id="flow2" sourceRef="usertask1" targetRef="parallelgateway1"/>
+    <sequenceFlow id="flow3" sourceRef="parallelgateway1" targetRef="usertask2"/>
+    <sequenceFlow id="flow5" sourceRef="parallelgateway2" targetRef="endevent1"/>
+    <sequenceFlow id="flow7" sourceRef="servicetask1" targetRef="signalintermediatecatchevent1"/>
+    <sequenceFlow id="flow10" sourceRef="signalintermediatecatchevent1" targetRef="usertask3"/>
+    <sequenceFlow id="flow11" sourceRef="usertask2" targetRef="signalintermediatethrowevent1"/>
+    <sequenceFlow id="flow12" sourceRef="signalintermediatethrowevent1" targetRef="parallelgateway2"/>
+    <sequenceFlow id="flow13" sourceRef="parallelgateway1" targetRef="signalintermediatecatchevent2"/>
+    <sequenceFlow id="flow14" sourceRef="signalintermediatecatchevent2" targetRef="parallelgateway2"/>
+    <sequenceFlow id="flow15" sourceRef="parallelgateway1" targetRef="servicetask1"/>
+    <sequenceFlow id="flow16" sourceRef="usertask3" targetRef="parallelgateway2"/>
+  </process>
+  <bpmndi:BPMNDiagram documentation="background=#3C3F41;count=1;horizontalcount=1;orientation=0;width=842.4;height=1195.2;imageableWidth=832.4;imageableHeight=1185.2;imageableX=5.0;imageableY=5.0" id="Diagram-_1" name="New Diagram">
+    <bpmndi:BPMNPlane bpmnElement="stProcess">
+      <bpmndi:BPMNShape bpmnElement="startevent1" id="Shape-startevent1">
+        <omgdc:Bounds height="32.0" width="32.0" x="190.0" y="254.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="usertask1" id="Shape-usertask1">
+        <omgdc:Bounds height="55.0" width="105.0" x="260.0" y="244.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="parallelgateway1" id="Shape-parallelgateway1">
+        <omgdc:Bounds height="32.0" width="32.0" x="400.0" y="251.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="usertask2" id="Shape-usertask2">
+        <omgdc:Bounds height="55.0" width="105.0" x="480.0" y="143.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="servicetask1" id="Shape-servicetask1">
+        <omgdc:Bounds height="55.0" width="105.0" x="480.0" y="244.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="signalintermediatecatchevent1" id="Shape-signalintermediatecatchevent1">
+        <omgdc:Bounds height="32.0" width="32.0" x="640.0" y="254.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="parallelgateway2" id="Shape-parallelgateway2">
+        <omgdc:Bounds height="32.0" width="32.0" x="850.0" y="251.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="endevent1" id="Shape-endevent1">
+        <omgdc:Bounds height="32.0" width="32.0" x="940.0" y="254.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="usertask3" id="Shape-usertask3">
+        <omgdc:Bounds height="55.0" width="105.0" x="720.0" y="244.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="signalintermediatethrowevent1" id="Shape-signalintermediatethrowevent1">
+        <omgdc:Bounds height="32.0" width="32.0" x="720.0" y="153.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="signalintermediatecatchevent2" id="Shape-signalintermediatecatchevent2">
+        <omgdc:Bounds height="32.0" width="32.0" x="480.0" y="360.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="flow1" id="BPMNEdge_flow1" sourceElement="startevent1" targetElement="usertask1">
+        <omgdi:waypoint x="222.0" y="270.0"/>
+        <omgdi:waypoint x="260.0" y="271.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow2" id="BPMNEdge_flow2" sourceElement="usertask1" targetElement="parallelgateway1">
+        <omgdi:waypoint x="365.0" y="271.5"/>
+        <omgdi:waypoint x="400.0" y="267.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow3" id="BPMNEdge_flow3" sourceElement="parallelgateway1" targetElement="usertask2">
+        <omgdi:waypoint x="420.0" y="255.0"/>
+        <omgdi:waypoint x="420.0" y="170.0"/>
+        <omgdi:waypoint x="480.0" y="170.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow5" id="BPMNEdge_flow5" sourceElement="parallelgateway2" targetElement="endevent1">
+        <omgdi:waypoint x="882.0" y="267.0"/>
+        <omgdi:waypoint x="940.0" y="270.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow7" id="BPMNEdge_flow7" sourceElement="servicetask1" targetElement="signalintermediatecatchevent1">
+        <omgdi:waypoint x="585.0" y="271.5"/>
+        <omgdi:waypoint x="640.0" y="270.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow13" id="BPMNEdge_flow13" sourceElement="parallelgateway1" targetElement="signalintermediatecatchevent2">
+        <omgdi:waypoint x="420.0" y="279.0"/>
+        <omgdi:waypoint x="420.0" y="377.0"/>
+        <omgdi:waypoint x="480.03128057732874" y="377.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow14" id="BPMNEdge_flow14" sourceElement="signalintermediatecatchevent2" targetElement="parallelgateway2">
+        <omgdi:waypoint x="511.96871942267126" y="377.0"/>
+        <omgdi:waypoint x="870.0" y="377.0"/>
+        <omgdi:waypoint x="870.0" y="279.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow15" id="BPMNEdge_flow15" sourceElement="parallelgateway1" targetElement="servicetask1">
+        <omgdi:waypoint x="432.0" y="267.0"/>
+        <omgdi:waypoint x="480.0" y="271.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow16" id="BPMNEdge_flow16" sourceElement="usertask3" targetElement="parallelgateway2">
+        <omgdi:waypoint x="825.0" y="271.5"/>
+        <omgdi:waypoint x="850.0" y="267.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow10" id="BPMNEdge_flow10" sourceElement="signalintermediatecatchevent1" targetElement="usertask3">
+        <omgdi:waypoint x="672.0" y="270.0"/>
+        <omgdi:waypoint x="720.0" y="271.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow11" id="BPMNEdge_flow11" sourceElement="usertask2" targetElement="signalintermediatethrowevent1">
+        <omgdi:waypoint x="585.0" y="170.5"/>
+        <omgdi:waypoint x="720.0" y="169.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow12" id="BPMNEdge_flow12" sourceElement="signalintermediatethrowevent1" targetElement="parallelgateway2">
+        <omgdi:waypoint x="751.9687194226713" y="170.0"/>
+        <omgdi:waypoint x="870.0" y="170.0"/>
+        <omgdi:waypoint x="870.0" y="255.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

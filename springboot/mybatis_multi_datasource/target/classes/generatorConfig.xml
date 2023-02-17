@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<context id="Test" targetRuntime="MyBatis3">
+		<commentGenerator>
+			<property name="suppressDate" value="true"/>
+			<property name="suppressAllComments" value="true"/>
+		</commentGenerator>
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/test0?useSSL=false" userId="root" password="root">
+		</jdbcConnection>
+		<javaModelGenerator	targetPackage="com.think.entity" targetProject="src/main/java" />
+		<sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources" />
+		<javaClientGenerator targetPackage="com.think.test1.dao" targetProject="src/main/java" type="XMLMAPPER" />
+
+		<table tableName="t_order_0" domainObjectName="Order">
+			<generatedKey column="id" sqlStatement="MySql"  identity="true" />
+		</table>
+		<table tableName="customer" domainObjectName="Customer">
+			<generatedKey column="id" sqlStatement="MySql"  identity="true" />
+		</table>
+		<table tableName="order_details" domainObjectName="OrderDetail">
+			<generatedKey column="id" sqlStatement="MySql"  identity="true" />
+		</table>
+		<table tableName="products" domainObjectName="Product">
+			<generatedKey column="id" sqlStatement="MySql"  identity="true" />
+		</table>
+
+	</context>
+</generatorConfiguration>

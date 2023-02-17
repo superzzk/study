@@ -1,0 +1,15 @@
+server:
+  port: 8605
+
+spring:
+  application:
+    name: feign-hytrix-client
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka/
+
+feign:
+  hystrix:
+    enabled: true
